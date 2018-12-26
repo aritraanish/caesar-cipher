@@ -20,6 +20,8 @@ while(retry == True):
         k = int(input("Enter the Caesar Key:- "))
         print("")
 
+#---------Encryption Algorithm--------------
+
         for i in range(0, len(inp)):
             a = ord(inp[i])
 
@@ -30,6 +32,8 @@ while(retry == True):
                     a = 97
 
             print(chr(a), end="")
+
+#---------Encryption Algorithm End-----------
 
         print("")
         print("")
@@ -57,6 +61,8 @@ while(retry == True):
         k = int(input("Enter the Caesar Key:- "))
         print("")
 
+#----------Decryption ALgorithm---------------
+
         for i in range(0, len(inp)):
             a = ord(inp[i])
 
@@ -67,6 +73,8 @@ while(retry == True):
                     a = 122
 
             print(chr(a), end="")
+
+#-----------Decryption Algorithm Ends----------
 
         print("")
         print("")
