@@ -54,11 +54,12 @@ while(retry == True):
     elif (choice=="2"):
         inp = str(input("Enter the string:-"))
         k = int(input("Enter the Caesar Key:- "))
+        print("")
 
         for i in range(0, len(inp)):
             a = ord(inp[i])
 
-            for k in range (0, k):
+            for o in range (0, k):
                 a = a - 1
 
                 if (a<97):
